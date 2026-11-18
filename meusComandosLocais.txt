@@ -1,0 +1,19 @@
+﻿try { . "c:\Users\kauam\AppData\Local\Programs\Antigravity IDE\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+git init
+git clone https://github.com/kakitto/LABINFO-03-26-27.git
+cd LABINFO-03-26-27
+cls
+git init
+git add .
+git commit -m "3.ª tarefa concluída"
+git remote add origin https://github.com/kakitto/LABINFO-03-26-27.git
+git push -u origin main
+cls
+git add .
+git commit -m " 4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push
+git pull
+git add .
+git commit -m "5.ª tarefa cumprida"
+git push
+git pull
