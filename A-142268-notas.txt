@@ -1,0 +1,169 @@
+NOME: Kauã Marques Morais Rodrigues
+NMEC: 142268
+
+>>>>> 1. <<<<<
+
+Comando -> pwd  
+
+Resultado -> /workspaces/LABINFO-03-26-27
+
+
+
+>>>>> 1ª Tarefa. <<<<<
+
+git add .
+
+git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+
+git push
+
+
+
+>>>>> 2ª Tarefa. <<<<<
+
+mkdir A142268
+
+comando -> cd A142268 && pwd
+resultado -> /workspaces/LABINFO-03-26-27/A142268
+
+touch README.md
+
+echo "Teste de LI 2026/2027" > README.md
+
+comando -> cd .. && pwd
+resultado -> /workspaces/LABINFO-03-26-27
+
+history > cmdstask2.txt
+
+git add A142268/README.md && git add cmdstask2.txt
+
+git commit -m "2.ª tarefa concluída"
+
+git push
+
+
+
+>>>>> 3ª Tarefa. <<<<<
+
+git init
+
+git clone https://github.com/kakitto/LABINFO-03-26-27.git
+
+cd LABINFO-03-26-27
+
+git init
+
+git add .
+
+git commit -m "3.ª tarefa concluída"
+
+git push -u origin main
+
+
+
+>>>>> 4ª Tarefa. <<<<<
+
+git add .
+
+git commit -m " 4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+
+git push -u origin main
+
+
+
+>>>>> 5ª Tarefa. <<<<<
+
+CODESPACE:
+
+git pull
+
+cp index.html disciplina.html
+
+git add .
+
+git commit -m "Cria disciplina.html a partir de index.html"
+
+git push 
+
+
+LOCAL:
+
+git add .
+
+git commit -m "5.ª tarefa cumprida"
+
+git push 
+
+
+
+>>>>> 6ª Tarefa. <<<<<
+
+history > meusComandosCodespace.txt
+
+cat meusComandosCodespace.txt
+
+=== Comandos do Codespace ===
+
+    1  pwd
+    2* git add .
+    3  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    4  git push 
+    5  mkdir A142268
+    6  cd A142268 && pwd
+    7  touch README.md
+    8  cat >> Teste de LI 2026/2027
+    9  echo "Teste de LI 2026/2027" > A142268/README.md
+   10  echo "Teste de LI 2026/2027" > README.md
+   11  cd .. && pwd
+   12  history > cmdstask2.txt
+    13  git pull
+    14  git add .
+    15  git commit -m "Cria disciplina.html a partir de index.html"
+    16  git push
+    17  cp index.html teste.html
+    18  >>>>> 5ª Tarefa. <<<<<
+    19  history > meusComandosCodespace.txt
+
+git add .
+
+git commit -m "Tarefa 6: regista o histórico do Codespace"
+
+git push
+
+
+LOCAL:
+
+git pull
+
+comando -> Get-History | Select-Object -ExpandProperty CommandLine | Set-Content -Encoding utf8 meusComandosLocais.txt
+comando -> Get-Content meusComandosLocais.txt
+
+--- Comandos do computador ---
+
+resultado -> try { . "c:\Users\kauam\AppData\Local\Programs\Antigravity IDE\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+git init
+git clone https://github.com/kakitto/LABINFO-03-26-27.git
+cd LABINFO-03-26-27
+cls
+git init
+git add .
+git commit -m "3.ª tarefa concluída"
+git remote add origin https://github.com/kakitto/LABINFO-03-26-27.git
+git push -u origin main
+cls
+git add .
+git commit -m " 4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push
+git pull
+git add .
+git commit -m "5.ª tarefa cumprida"
+git push
+git pull
+
+
+git add .
+
+git commit -m "Tarefa 6 cumprida"
+
+git push
+
